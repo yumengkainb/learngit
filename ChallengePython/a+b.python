@@ -1,0 +1,5 @@
+import cmath;
+
+a=raw_input('Please input the number a:');
+b=raw_input('Please input then number b:');
+print float(a)+float(b);
