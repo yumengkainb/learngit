@@ -14,7 +14,7 @@ def main():
     content=get_one_page(url)
     write_to_file(content)
     html=etree.parse('./test.html',etree.HTMLParser())
-    result=html.xpath('//a[@href="/films/1203"]/@data-val')
+    result=html.xpath('//a[@href="/films/1203"]/@title')
     print(result)
 
 
